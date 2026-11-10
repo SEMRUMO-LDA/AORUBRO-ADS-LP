@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tráfego Pago de Alta Performance | Meta Ads & Google Ads | AORUBRO</title>
+  <meta name="description" content="Escale as vendas do seu negócio com Meta Ads e Google Ads orientados a dados reais, engenharia de tracking server-side (Pixel & CAPI) e criativos de alta conversão. AORUBRO Algarve." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#070708" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- Open Graph / Facebook / WhatsApp Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_PT" />
+  <meta property="og:site_name" content="AORUBRO" />
+  <meta property="og:title" content="Tráfego Pago de Alta Performance | Meta Ads & Google Ads | AORUBRO" />
+  <meta property="og:description" content="Escale as vendas do seu negócio com Meta Ads e Google Ads orientados a dados reais, engenharia técnica de tracking e criativos de alta conversão no Algarve." />
+  <meta property="og:image" content="assets/logo-aorubro.png" />
+  <meta property="og:image:alt" content="AORUBRO - Tráfego Pago de Alta Performance" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tráfego Pago de Alta Performance | AORUBRO" />
+  <meta name="twitter:description" content="Escale as vendas do seu negócio com estratégias de tráfego pago no Instagram, Facebook e Google Ads." />
+  <meta name="twitter:image" content="assets/logo-aorubro.png" />
+
+  <link rel="icon" type="image/png" href="assets/logo-aorubro.png" />
+  <link rel="apple-touch-icon" href="assets/logo-aorubro.png" />
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme mode-meta">
+  <!-- Top Background Grid Pattern -->
+  <div class="dot-matrix-bg"></div>
+
+  <main>
+    <!-- CANAL SWITCHER (Comutador dinâmico de abordagem comercial: Meta Ads vs Google Ads) -->
+    <aside class="channel-switcher-banner" id="channel-switcher" aria-label="Comutador de Abordagem Comercial">
+      <div class="container channel-switcher-inner">
+        <div class="switcher-meta-info">
+          <div class="switcher-brand-pill">
+            <img src="assets/logo-aorubro-oficial.png" alt="AORUBRO" class="switcher-brand-img" />
+          </div>
+          <span class="switcher-title-hint">Selecione o canal estratégico:</span>
+        </div>
+
+        <div class="channel-toggle-pills" role="tablist" aria-label="Seleção de Canal">
+          <button type="button" class="channel-pill-btn active" id="btn-toggle-meta" onclick="switchChannelMode('meta')" role="tab" aria-selected="true">
+            <span class="channel-logo-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z"/>
+              </svg>
+            </span>
+            <div class="pill-text-col">
+              <span class="pill-main-name">Meta Ads</span>
+              <span class="pill-sub-info">Instagram & Facebook • Desejo</span>
+            </div>
+          </button>
+
+          <button type="button" class="channel-pill-btn" id="btn-toggle-google" onclick="switchChannelMode('google')" role="tab" aria-selected="false">
+            <span class="channel-logo-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+            </span>
+            <div class="pill-text-col">
+              <span class="pill-main-name">Google Ads</span>
+              <span class="pill-sub-info">Pesquisa & Shopping • Intenção</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </aside>
+    <!-- HERO SECTION (Sem cabeçalho superior - foco direto na conversão) -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Main Headline -->
+        <h1 class="hero-title animate-fade-up">
+          <span class="channel-view-meta">
+            Elevamos as vendas da sua marca com <br class="hide-mobile"/>
+            <span class="highlight-yellow">Meta Ads</span> orientado a dados reais.
+          </span>
+          <span class="channel-view-google">
+            Converta clientes no exato momento em que procuram pelo seu negócio no <br class="hide-mobile"/>
+            <span class="highlight-yellow">Google Ads</span>.
+          </span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="hero-subtitle animate-fade-up delay-1">
+          <span class="channel-view-meta">
+            Mais do que uma agência que lança anúncios, somos o seu parceiro de crescimento no Algarve. Desenhamos estratégias de tráfego pago no Instagram e Facebook com engenharia de dados precisa para atrair clientes prontos a comprar, proteger o seu investimento e impulsionar a faturação real do seu negócio — sem métricas de vaidade nem relatórios confusos.
+          </span>
+          <span class="channel-view-google">
+            Colocamos a sua empresa no topo do Google exatamente quando os clientes procuram pelos seus serviços ou produtos. Como parceiros dedicados, cuidamos de cada detalhe técnico (GA4 e conversões avançadas) e eliminamos cliques desperdiçados, garantindo vendas e contactos reais todos os dias.
+          </span>
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group animate-fade-up delay-2">
+          <a href="#contacto" class="btn btn-primary btn-large">
+            <span>QUERO SER CONTACTADO</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#pilares" class="btn btn-outline btn-large">
+            <span>CONHECER A METODOLOGIA</span>
+          </a>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: OS 4 PILARES EM DETALHE -->
+    <section class="section pillars-section" id="pilares">
+      <div class="container">
+        <div class="section-tag-wrap">
+          <span class="section-tag channel-view-meta">Metodologia Comprovada</span>
+          <span class="section-tag channel-view-google">Metodologia Google Ads</span>
+        </div>
+        <h2 class="section-title">
+          <span class="channel-view-meta">Como construímos campanhas que <span class="highlight-yellow">vendem todos os dias</span></span>
+          <span class="channel-view-google">Como capturamos clientes com <span class="highlight-yellow">intenção imediata de compra</span></span>
+        </h2>
+        <p class="section-desc">
+          <span class="channel-view-meta">Não acreditamos em fórmulas mágicas nem no botão de "promover publicação". Tratamos o orçamento da sua empresa com o mesmo rigor com que tratamos o nosso, assente em 4 pilares estratégicos:</span>
+          <span class="channel-view-google">No Google, o segredo é estar presente no segundo exato da necessidade do cliente. Asseguramos que o seu anúncio é a resposta óbvia e que o seu investimento é protegido através de 4 pilares rigorosos:</span>
+        </p>
+
+        <!-- META PILLARS GRID -->
+        <div class="pillars-grid channel-view-meta">
+          <!-- Pilar 1 Meta -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">01</span>
+              <span class="pillar-tech-tag">Engenharia de Dados</span>
+            </div>
+            <h3 class="pillar-title">01. Dados & <span class="highlight-yellow">Tracking Server-Side</span></h3>
+            <p class="pillar-text">
+              Antes de investir o primeiro euro em anúncios, preparamos toda a sua infraestrutura digital para garantir que a medição entre o site, o dispositivo do cliente e o algoritmo funciona sem perdas.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Pixel Meta Verificado:</strong> validação de domínio através de registo DNS</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>CAPI Server-Side:</strong> contorno a bloqueios de cookies e iOS sem perda de dados</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Públicos Personalizados:</strong> audiências alimentadas com compradores reais</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Catálogo Dinâmico:</strong> sincronização contínua de produtos e serviços</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 2 Meta -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">02</span>
+              <span class="pillar-tech-tag">Conversão & Copywriting</span>
+            </div>
+            <h3 class="pillar-title">02. Criativos de Alta Conversão <span class="highlight-yellow">& LP</span></h3>
+            <p class="pillar-text">
+              Nas redes sociais, o cliente decide em 2 segundos se continua a deslizar ou para para ver a sua marca. Criamos mensagens e vídeos autênticos que despertam o desejo real de compra.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Ganchos Visuais Persuasivos:</strong> mensagens focadas na dor e desejo do cliente ideal</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Alinhamento Anúncio & Landing Page:</strong> zero atrito entre a promessa e a conversão</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Testes A/B Estruturados:</strong> comparação contínua entre Reels, Carrosséis e Fotos</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Otimização de Conversão:</strong> foco em chamadas, WhatsApp e formulários qualificados</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 3 Meta -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">03</span>
+              <span class="pillar-tech-tag">Inteligência & Gestão Ativa</span>
+            </div>
+            <h3 class="pillar-title">03. Gestão Diária de Leilão <span class="highlight-yellow">& Escala</span></h3>
+            <p class="pillar-text">
+              O mercado e os algoritmos mudam todos os dias. A nossa equipa supervisiona as suas campanhas de forma contínua, cortando desperdícios e reforçando o orçamento onde as vendas acontecem.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Supervisão Diária de Leilões:</strong> pausa rápida de anúncios abaixo da meta de custo</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Alocação Inteligente de Verba:</strong> investimento direcionado aos conjuntos mais rentáveis</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Combate à Fadiga Criativa:</strong> renovação estratégica de formatos e novos guiões</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Escalabilidade Segura:</strong> aumento de investimento sem explosão do custo por lead</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 4 Meta -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">04</span>
+              <span class="pillar-tech-tag">Transparência & Resultados</span>
+            </div>
+            <h3 class="pillar-title">04. Faturação Real & <span class="highlight-yellow">Custo por Lead</span></h3>
+            <p class="pillar-text">
+              Conversamos consigo de empresário para empresário, em reuniões regulares e em linguagem simples: mostramos quanto investiu, quantos clientes conquistou e qual o lucro gerado.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Relatórios Executivos Mensais:</strong> foco em Custo por Lead, Vendas e ROAS real</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Dashboard Dinâmico:</strong> acompanhamento em tempo real das principais métricas</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Análise de Funil:</strong> identificação dos pontos de abandono antes do checkout</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Alinhamento Estratégico:</strong> recomendações contínuas de novos mercados e expansão</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- GOOGLE PILLARS GRID -->
+        <div class="pillars-grid channel-view-google">
+          <!-- Pilar 1 Google -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">01</span>
+              <span class="pillar-tech-tag">Engenharia de Conversões</span>
+            </div>
+            <h3 class="pillar-title">01. GA4, GTM & <span class="highlight-yellow">Dados Técnicos</span></h3>
+            <p class="pillar-text">
+              Blindamos a sua conta para que o Google compreenda exatamente o perfil dos seus melhores clientes. Rastreámos chamadas telefónicas, pedidos pelo WhatsApp e formulários com precisão cirúrgica.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Google Tag Manager:</strong> acionadores de formulários, chamadas e conversões de WhatsApp</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Enhanced Conversions:</strong> envio seguro server-side para alimentar os lances inteligentes</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Google Merchant Center:</strong> integração de catálogo para campanhas no Google Shopping</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Deduplicação Rigorosa:</strong> GA4 e Google Ads alinhados sem dados duplicados</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 2 Google -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">02</span>
+              <span class="pillar-tech-tag">Intenção Ativa & Pesquisa</span>
+            </div>
+            <h3 class="pillar-title">02. Estrutura de Campanhas <span class="highlight-yellow">& Relevância</span></h3>
+            <p class="pillar-text">
+              Criamos anúncios que respondem com clareza à pesquisa do utilizador. Com títulos atrativos e mensagens diretas, garantimos que a sua empresa surge destacada no momento da decisão.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Rede de Pesquisa de Alta Intenção:</strong> posições cimeiras para pesquisas comerciais</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Índice de Qualidade Elevado:</strong> anúncios relevantes para pagar menos por clique</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Campanhas Performance Max:</strong> presença em Pesquisa, Maps, YouTube e Gmail</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Extensões Estruturadas:</strong> sitelinks, frases de destaque e número de chamada</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 3 Google -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">03</span>
+              <span class="pillar-tech-tag">Auditoria & Negativação</span>
+            </div>
+            <h3 class="pillar-title">03. Negativação Diária <span class="highlight-yellow">& Zero Desperdício</span></h3>
+            <p class="pillar-text">
+              O grande erro de quem anuncia sozinho no Google é pagar cliques de curiosos que nunca vão comprar. A nossa equipa faz uma limpeza diária de palavras irrelevantes, poupando o seu orçamento.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Negativação Diária Contínua:</strong> bloqueio de pesquisas casuais e sem valor comercial</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Lances Inteligentes (tCPA e tROAS):</strong> custo controlado por cada contacto fechado</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Segmentação Geográfica e Horária:</strong> verba concentrada nos momentos de maior conversão</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Alinhamento com Landing Page:</strong> texto coeso entre o anúncio e o destino para conversão máxima</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 4 Google -->
+          <div class="pillar-card">
+            <div class="pillar-header">
+              <span class="pillar-badge">04</span>
+              <span class="pillar-tech-tag">Faturação & Retorno</span>
+            </div>
+            <h3 class="pillar-title">04. ROAS Real & <span class="highlight-yellow">Custo por Lead</span></h3>
+            <p class="pillar-text">
+              Analisamos consigo o impacto real na faturação da sua empresa: quais os serviços ou produtos mais rentáveis, o custo real de cada contacto recebido e as oportunidades para continuar a crescer mês após mês.
+            </p>
+            <ul class="pillar-features">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Relatório de CPA e Conversões:</strong> custos detalhados por formulário submetido e chamada</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Termos de Pesquisa Vencedores:</strong> descoberta contínua das palavras que trazem vendas</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>ROAS Real:</strong> cálculo direto entre o investimento publicitário e a receita obtida</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="check-icon"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span><strong>Acompanhamento Estratégico Mensal:</strong> recomendações contínuas de escala de faturação</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PLANOS & CONDIÇÕES COMERCIAIS -->
+    <section class="section pricing-section" id="planos">
+      <div class="container">
+        <div class="section-tag-wrap">
+          <span class="section-tag">Investimento Transparente</span>
+        </div>
+        <h2 class="section-title">
+          Pacotes, Setup & <span class="highlight-yellow">Addons de Valor</span>
+        </h2>
+        <p class="section-desc">
+          Sem fidelizações forçadas nos anúncios, sem letras pequenas e com total clareza. Valores desenhados para proporcionar rentabilidade e permitir uma parceria sólida e duradoura com a sua empresa.
+        </p>
+
+        <!-- META MODE PRICING GRID -->
+        <div class="pricing-cards-grid channel-view-meta">
+          <!-- CARD 1: SETUP META -->
+          <div class="aorubro-price-card">
+            <div class="setup-price-badge">
+              <span class="badge-price-amount">590€</span>
+              <span class="badge-price-period">taxa única</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label setup-label">Taxa Única de Arranque</span>
+              <h3 class="card-service-title">
+                Setup & Engenharia de Dados
+              </h3>
+
+              <div class="service-details-box">
+                <p class="detail-lead">Infraestrutura técnica obrigatória no arranque:</p>
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>Pixel Meta:</strong> instalação e verificação de domínio com DNS</li>
+                  <li><span class="bullet-dot">•</span> <strong>CAPI Server-Side:</strong> tracking direto de servidor sem perdas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Públicos Estruturados:</strong> audiências personalizadas e lookalikes</li>
+                  <li><span class="bullet-dot">•</span> <strong>Catálogo de Produtos/Serviços:</strong> sincronização e feed</li>
+                  <li><span class="bullet-dot">•</span> <strong>Auditoria de Ativos:</strong> Business Manager, contas e permissões</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Taxa única de implementação obrigatória no arranque do projeto.</span>
+                <button class="btn btn-select-package btn-setup" onclick="selectPlan('setup')">
+                  <span>Incluído no Arranque</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: PLANO MENSAL META (THE HERO) -->
+          <div class="aorubro-price-card featured-card">
+            <div class="card-featured-pill">RECOMENDADO</div>
+            <div class="yellow-price-badge hero-badge">
+              <span class="badge-price-amount">390€</span>
+              <span class="badge-price-period">/mês</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label highlight-gold-label">Gestão Contínua & Escala</span>
+              <h3 class="card-service-title">
+                <span class="highlight-yellow">Plano Mensal</span> Meta Ads
+              </h3>
+
+              <div class="service-details-box">
+                <div class="rule-box">
+                  <span class="rule-icon">💡</span>
+                  <p><strong>Fluxo de Trabalho Ágil:</strong> Criamos todos os guiões e briefings estratégicos. A sua equipa apenas grava ou recolhe os vídeos/fotos e nós tratamos da edição, publicação e otimização diária.</p>
+                </div>
+                
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>1 Campanha Ativa</strong> de alta conversão</li>
+                  <li><span class="bullet-dot">•</span> <strong>Otimização Diária</strong> de leilão, orçamentos e públicos</li>
+                  <li><span class="bullet-dot">•</span> <strong>Auditoria Contínua</strong> contra fadiga de anúncios</li>
+                  <li><span class="bullet-dot">•</span> <strong>Testes A/B</strong> de públicos, copies e mensagens</li>
+                  <li><span class="bullet-dot">•</span> <strong>Relatório Mensal</strong> focado em CPL, Vendas e ROAS</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*O orçamento de anúncios é pago diretamente pela sua empresa ao Meta.</span>
+                <button class="btn btn-select-package btn-hero-select" onclick="selectPlan('mensal')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: EXPANSÃO GOOGLE ADS (EXPANDABLE COMBO ADDON) -->
+          <div class="aorubro-price-card span-2 multicanal-card multicanal-accordion-card" id="multicanal-card-meta">
+            <!-- Compact Header (Always Visible) -->
+            <div class="multicanal-compact-header" onclick="toggleMulticanalAccordion('meta')">
+              <div class="compact-left">
+                <div class="compact-badges-row">
+                  <span class="combo-badge-pill google-pill">Combo Multicanal</span>
+                  <span class="badge-discount-tag">Poupe 490€ no Setup</span>
+                </div>
+                <h3 class="compact-title">
+                  Expansão Google Ads <span class="compact-price-pill">+110€/mês</span>
+                </h3>
+                <p class="compact-teaser-desc">
+                  Expanda para a Pesquisa e Shopping. No Combo, a avença fica por <strong>+110€/mês</strong> (Total 500€/mês) e o Setup conjunto é bonificado para <strong>990€</strong> (ou 2× 495€ sem juros).
+                </p>
+              </div>
+
+              <div class="compact-actions">
+                <button type="button" class="btn-accordion-toggle" id="btn-accordion-toggle-meta" aria-expanded="false" aria-label="Ver detalhes do Combo Google Ads">
+                  <span class="toggle-txt">Ver Detalhes do Combo</span>
+                  <svg class="accordion-chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <button type="button" class="btn-select-package-sm btn-google" onclick="event.stopPropagation(); selectPlan('secondary');">
+                  <span>Adicionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Expandable Detailed Content -->
+            <div class="multicanal-expandable-body" id="multicanal-expandable-meta">
+              <div class="service-details-box">
+                <div class="rule-box google-rule">
+                  <span class="rule-icon">🎯</span>
+                  <p><strong>Condições Comerciais:</strong> Setup isolado de 890€ e avença de 290€/mês. <strong>No Combo Multicanal com Meta Ads:</strong> avença reduzida para <strong>apenas +110€/mês (Combo a 500€/mês)</strong> e Setup bonificado para <strong>990€ no conjunto</strong> (em vez de 1.480€, poupança de 490€ no arranque).</p>
+                </div>
+                
+                <div class="google-details-grid">
+                  <ul class="detail-items-list">
+                    <li><span class="bullet-dot">•</span> <strong>Captura de Intenção Ativa:</strong> anúncios colocados quando o cliente pesquisa no Google pelo seu serviço</li>
+                    <li><span class="bullet-dot">•</span> <strong>Rede de Pesquisa, Shopping & PMax:</strong> estrutura de campanhas orientada a conversão</li>
+                    <li><span class="bullet-dot">•</span> <strong>Engenharia de Dados Google:</strong> setup técnico com Tag Manager, GA4 e Enhanced Conversions</li>
+                  </ul>
+                  <ul class="detail-items-list">
+                    <li><span class="bullet-dot">•</span> <strong>Gestão Diária de Palavras Negativas:</strong> monitorização contínua para eliminar cliques desperdiçados</li>
+                    <li><span class="bullet-dot">•</span> <strong>Sinergia Multicanal Total:</strong> o Meta desperta o desejo; o Google converte quem já pesquisa</li>
+                    <li><span class="bullet-dot">•</span> <strong>Relatório Unificado:</strong> análise comparativa de CPA, faturação e ROAS entre ambos os canais</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card-footer-info combo-footer">
+                <div class="price-comparison-note">
+                  <span class="standalone-price-txt">Preço Isolado: <strong>290€/mês</strong> (+ Setup de 890€)</span>
+                  <span class="combo-price-txt">Combo com Meta Ads: <strong>390€ + 110€ = 500€/mês</strong> <em>(poupança imediata de 180€/mês face a 680€)</em></span>
+                  <span class="setup-flex-txt" style="font-size: 0.76rem; color: var(--yellow-primary); margin-top: 4px; display: block;">⚡ <em>Setup Especial do Combo:</em> <strong>990€ no conjunto</strong> em vez de 1.480€ (poupança de 490€ no arranque • fracionável em 2× 495€ sem juros).</span>
+                </div>
+                <div class="footer-actions-row">
+                  <button type="button" class="btn-collapse-link" onclick="toggleMulticanalAccordion('meta')">
+                    <span>Recolher Detalhes ▲</span>
+                  </button>
+                  <button class="btn btn-select-package btn-google" onclick="selectPlan('secondary')">
+                    <span>Adicionar Google Ads no Simulador</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4: ADDON CRIATIVOS -->
+          <div class="aorubro-price-card">
+            <div class="addon-price-badge">
+              <span class="badge-price-amount">890€</span>
+              <span class="badge-price-period">taxa única</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label">Addon Opcional • Produção Audiovisual</span>
+              <h3 class="card-service-title">
+                Addon Criativos & Estratégia
+              </h3>
+
+              <div class="service-details-box">
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>Plano Estratégico de Comunicação:</strong> narrativa da marca e mensagens-chave persuasivas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Marketing Research:</strong> estudo de mercado e concorrência</li>
+                  <li><span class="bullet-dot">•</span> <strong>Deslocação ao Espaço:</strong> equipa técnica nas suas instalações</li>
+                  <li><span class="bullet-dot">•</span> <strong>Captação e Edição Profissional:</strong> imagem e captação de som de topo</li>
+                  <li><span class="bullet-dot">•</span> <strong>9 Peças Criativas:</strong> pacote fixo de designs para anúncios</li>
+                  <li><span class="bullet-dot">•</span> <strong>Até 3 Vídeos Curtos (Reels):</strong> gravados, editados e legendados</li>
+                  <li><span class="bullet-dot">•</span> <strong>Banco de Imagens Próprio:</strong> fotos e takes em alta resolução</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Taxa única opcional recomendada para marcas sem material em vídeo.</span>
+                <button class="btn btn-select-package" onclick="selectPlan('criativos')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5: ADDON ORGÂNICO -->
+          <div class="aorubro-price-card">
+            <div class="addon-price-badge">
+              <span class="badge-price-amount highlight-yellow">490€</span>
+              <span class="badge-price-period">/mês*</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label">Addon Opcional • Notoriedade</span>
+              <h3 class="card-service-title">
+                Addon Orgânico & Feed
+              </h3>
+
+              <div class="service-details-box">
+                <div class="rule-box green-rule">
+                  <span class="rule-icon">🎁</span>
+                  <p><strong>Oferta da Captação Presencial:</strong> Válida mediante <strong>acordo de 12 meses</strong> (sessões de captação no seu espaço que abastecem o feed de forma contínua). Sem fidelização, o valor mensal da gestão com captação fica por <strong>690€/mês</strong>.</p>
+                </div>
+                
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>9 Publicações Mensais no Feed:</strong> carrosséis e imagens estáticas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Planeamento Editorial Estratégico:</strong> alinhamento mensal de conteúdos</li>
+                  <li><span class="bullet-dot">•</span> <strong>Design Gráfico & Legendas:</strong> redação persuasiva e formatação</li>
+                  <li><span class="bullet-dot">•</span> <strong>Agendamento Automático:</strong> publicação nos melhores horários</li>
+                  <li><span class="bullet-dot">•</span> <strong>Construção de Autoridade:</strong> mantém o feed ativo para quem visita os anúncios</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Valor de 490€/mês com captação incluída sob acordo de 12 meses (sem fidelização: 690€/mês).</span>
+                <button class="btn btn-select-package" onclick="selectPlan('organico')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GOOGLE MODE PRICING GRID -->
+        <div class="pricing-cards-grid channel-view-google">
+          <!-- CARD 1: SETUP GOOGLE -->
+          <div class="aorubro-price-card">
+            <div class="setup-price-badge">
+              <span class="badge-price-amount">890€</span>
+              <span class="badge-price-period">taxa única</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label setup-label">Taxa Única de Arranque</span>
+              <h3 class="card-service-title">
+                Setup & Engenharia Google
+              </h3>
+
+              <div class="service-details-box">
+                <p class="detail-lead">Infraestrutura técnica obrigatória no arranque:</p>
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>Google Tag Manager:</strong> instalação de contentores com triggers de conversão</li>
+                  <li><span class="bullet-dot">•</span> <strong>GA4 & Enhanced Conversions:</strong> tracking encriptado server-side sem perdas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Rastreio de Formulários & Chamadas:</strong> atribuição direta de cada contacto</li>
+                  <li><span class="bullet-dot">•</span> <strong>Merchant Center:</strong> criação e aprovação de feed para Google Shopping</li>
+                  <li><span class="bullet-dot">•</span> <strong>Auditoria de Ativos:</strong> contas Google Ads, ligações GA4 e permissões</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Taxa única de implementação obrigatória no arranque do projeto.</span>
+                <button class="btn btn-select-package btn-setup" onclick="selectPlan('setup')">
+                  <span>Incluído no Arranque</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: PLANO MENSAL GOOGLE (THE HERO) -->
+          <div class="aorubro-price-card featured-card">
+            <div class="card-featured-pill">RECOMENDADO</div>
+            <div class="yellow-price-badge hero-badge">
+              <span class="badge-price-amount">290€</span>
+              <span class="badge-price-period">/mês</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label highlight-gold-label">Gestão Contínua & Intenção Ativa</span>
+              <h3 class="card-service-title">
+                <span class="highlight-yellow">Plano Mensal</span> Google Ads
+              </h3>
+
+              <div class="service-details-box">
+                <div class="rule-box google-rule">
+                  <span class="rule-icon">🎯</span>
+                  <p><strong>Foco em Intenção Ativa:</strong> Criamos, monitorizamos e otimizamos diariamente campanhas no Google para capturar o cliente no momento exato em que ele pesquisa pelo seu serviço ou produto.</p>
+                </div>
+                
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>1 Campanha Ativa</strong> (Pesquisa, Shopping ou PMax)</li>
+                  <li><span class="bullet-dot">•</span> <strong>Negativação Diária Contínua</strong> de palavras-chave irrelevantes</li>
+                  <li><span class="bullet-dot">•</span> <strong>Lances Inteligentes (tCPA e tROAS)</strong> para menor custo</li>
+                  <li><span class="bullet-dot">•</span> <strong>Otimização de Quality Score:</strong> títulos, descrições e extensões</li>
+                  <li><span class="bullet-dot">•</span> <strong>Relatório Mensal</strong> de CPA, chamadas, formulários e vendas</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*O orçamento de cliques é pago diretamente pela sua empresa à Google.</span>
+                <button class="btn btn-select-package btn-hero-select" onclick="selectPlan('mensal')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: EXPANSÃO META ADS (EXPANDABLE COMBO ADDON) -->
+          <div class="aorubro-price-card span-2 multicanal-card meta-addon-card multicanal-accordion-card" id="multicanal-card-google">
+            <!-- Compact Header (Always Visible) -->
+            <div class="multicanal-compact-header" onclick="toggleMulticanalAccordion('google')">
+              <div class="compact-left">
+                <div class="compact-badges-row">
+                  <span class="combo-badge-pill meta-pill">Combo Multicanal</span>
+                  <span class="badge-discount-tag">Poupe 490€ no Setup</span>
+                </div>
+                <h3 class="compact-title">
+                  Expansão Meta Ads <span class="compact-price-pill">+210€/mês</span>
+                </h3>
+                <p class="compact-teaser-desc">
+                  Adicione Instagram e Facebook. No Combo, a avença fica por <strong>+210€/mês</strong> (Total 500€/mês) e o Setup conjunto é bonificado para <strong>990€</strong> (ou 2× 495€ sem juros).
+                </p>
+              </div>
+
+              <div class="compact-actions">
+                <button type="button" class="btn-accordion-toggle" id="btn-accordion-toggle-google" aria-expanded="false" aria-label="Ver detalhes do Combo Meta Ads">
+                  <span class="toggle-txt">Ver Detalhes do Combo</span>
+                  <svg class="accordion-chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <button type="button" class="btn-select-package-sm btn-meta" onclick="event.stopPropagation(); selectPlan('secondary');">
+                  <span>Adicionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Expandable Detailed Content -->
+            <div class="multicanal-expandable-body" id="multicanal-expandable-google">
+              <div class="service-details-box">
+                <div class="rule-box meta-rule">
+                  <span class="rule-icon">💡</span>
+                  <p><strong>Condições Comerciais:</strong> Setup isolado de 590€ e avença de 390€/mês. <strong>No Combo Multicanal com Google Ads:</strong> avença reduzida para <strong>apenas +210€/mês (Combo a 500€/mês)</strong> e Setup conjunto bonificado para <strong>990€ no conjunto</strong> (em vez de 1.480€, poupança de 490€ no arranque).</p>
+                </div>
+                
+                <div class="google-details-grid">
+                  <ul class="detail-items-list">
+                    <li><span class="bullet-dot">•</span> <strong>Criação de Desejo & Notoriedade:</strong> anúncios no Feed e Reels para novos públicos</li>
+                    <li><span class="bullet-dot">•</span> <strong>Guiões Estratégicos Fornecidos:</strong> guiões prontos para filmar com o smartphone</li>
+                    <li><span class="bullet-dot">•</span> <strong>Engenharia de Dados Meta:</strong> setup de Pixel e CAPI Server-side (590€)</li>
+                  </ul>
+                  <ul class="detail-items-list">
+                    <li><span class="bullet-dot">•</span> <strong>Sinergia Multicanal Perfeita:</strong> o Meta desperta o interesse; o Google captura a pesquisa direta</li>
+                    <li><span class="bullet-dot">•</span> <strong>Retargeting Dinâmico:</strong> recuperação de visitantes que abandonaram a página</li>
+                    <li><span class="bullet-dot">•</span> <strong>Relatório Unificado:</strong> visão consolidada de investimento e faturação global</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card-footer-info combo-footer">
+                <div class="price-comparison-note">
+                  <span class="standalone-price-txt">Preço Isolado: <strong>390€/mês</strong> (+ Setup de 590€)</span>
+                  <span class="combo-price-txt">Combo com Google Ads: <strong>290€ + 210€ = 500€/mês</strong> <em>(poupança imediata de 180€/mês face a 680€)</em></span>
+                  <span class="setup-flex-txt" style="font-size: 0.76rem; color: #60a5fa; margin-top: 4px; display: block;">⚡ <em>Setup Especial do Combo:</em> <strong>990€ no conjunto</strong> em vez de 1.480€ (poupança de 490€ no arranque • fracionável em 2× 495€ sem juros).</span>
+                </div>
+                <div class="footer-actions-row">
+                  <button type="button" class="btn-collapse-link" onclick="toggleMulticanalAccordion('google')">
+                    <span>Recolher Detalhes ▲</span>
+                  </button>
+                  <button class="btn btn-select-package btn-meta" onclick="selectPlan('secondary')">
+                    <span>Adicionar Meta Ads no Simulador</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4: ADDON CRIATIVOS (SHARED) -->
+          <div class="aorubro-price-card">
+            <div class="addon-price-badge">
+              <span class="badge-price-amount">890€</span>
+              <span class="badge-price-period">taxa única</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label">Addon Opcional • Produção Audiovisual</span>
+              <h3 class="card-service-title">
+                Addon Criativos & Estratégia
+              </h3>
+
+              <div class="service-details-box">
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>Plano Estratégico de Comunicação:</strong> narrativa e mensagens-chave persuasivas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Marketing Research:</strong> estudo de mercado e concorrência</li>
+                  <li><span class="bullet-dot">•</span> <strong>Deslocação ao Espaço:</strong> equipa nas suas instalações</li>
+                  <li><span class="bullet-dot">•</span> <strong>Captação e Edição Profissional:</strong> som e imagem de alta fidelidade</li>
+                  <li><span class="bullet-dot">•</span> <strong>9 Peças Criativas:</strong> pacote fixo para anúncios de alta conversão</li>
+                  <li><span class="bullet-dot">•</span> <strong>Até 3 Vídeos Curtos (Reels/Shorts):</strong> gravados e editados</li>
+                  <li><span class="bullet-dot">•</span> <strong>Banco de Imagens Próprio:</strong> fotos e takes em alta resolução</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Taxa única opcional recomendada para marcas sem material em vídeo.</span>
+                <button class="btn btn-select-package" onclick="selectPlan('criativos')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5: ADDON ORGÂNICO (SHARED) -->
+          <div class="aorubro-price-card">
+            <div class="addon-price-badge">
+              <span class="badge-price-amount highlight-yellow">490€</span>
+              <span class="badge-price-period">/mês*</span>
+            </div>
+
+            <div class="card-main-content">
+              <span class="card-type-label">Addon Opcional • Notoriedade</span>
+              <h3 class="card-service-title">
+                Addon Orgânico & Feed
+              </h3>
+
+              <div class="service-details-box">
+                <div class="rule-box green-rule">
+                  <span class="rule-icon">🎁</span>
+                  <p><strong>Oferta da Captação Presencial:</strong> Válida mediante <strong>acordo de 12 meses</strong>. Sem fidelização, o valor mensal da gestão com captação fica por <strong>690€/mês</strong>.</p>
+                </div>
+                
+                <ul class="detail-items-list">
+                  <li><span class="bullet-dot">•</span> <strong>9 Publicações Mensais no Feed:</strong> carrosséis e imagens estáticas</li>
+                  <li><span class="bullet-dot">•</span> <strong>Planeamento Editorial Estratégico:</strong> alinhamento mensal de conteúdos</li>
+                  <li><span class="bullet-dot">•</span> <strong>Design Gráfico & Legendas:</strong> redação persuasiva e formatação</li>
+                  <li><span class="bullet-dot">•</span> <strong>Agendamento Automático:</strong> publicação nos melhores horários</li>
+                  <li><span class="bullet-dot">•</span> <strong>Construção de Autoridade:</strong> mantém o feed ativo para quem pesquisa a sua empresa</li>
+                </ul>
+              </div>
+
+              <div class="card-footer-info">
+                <span class="mandatory-tag">*Valor de 490€/mês com captação incluída sob acordo de 12 meses (sem fidelização: 690€/mês).</span>
+                <button class="btn btn-select-package" onclick="selectPlan('organico')">
+                  <span>Selecionar no Simulador</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SIMULADOR DE PROPOSTA EM TEMPO REAL -->
+    <section class="section simulator-section" id="simulador">
+      <div class="container">
+        <div class="section-tag-wrap">
+          <span class="section-tag">Simulador Interativo</span>
+        </div>
+        <h2 class="section-title">
+          Construa a sua <span class="highlight-yellow">proposta à medida</span>
+        </h2>
+        <p class="section-desc">
+          Selecione os módulos que fazem sentido para a fase atual do seu negócio e veja o investimento calculado em tempo real.
+        </p>
+
+        <div class="simulator-wrapper">
+          
+          <!-- TEMPO DE PARCERIA (6 MESES vs 12 MESES) -->
+          <div class="simulator-duration-container">
+            <div class="duration-toggle-bar">
+              <div class="duration-info-col">
+                <span class="duration-badge-lead">Horizonte de Parceria</span>
+                <span class="duration-title-text">Selecione o horizonte de trabalho planeado:</span>
+              </div>
+              <div class="duration-pills-wrap" role="radiogroup" aria-label="Tempo de Parceria">
+                <button type="button" class="duration-pill-btn" id="btn-duration-6m" onclick="setPartnershipDuration(6)" role="radio" aria-checked="false">
+                  <span class="duration-pill-label">6 Meses</span>
+                </button>
+                <button type="button" class="duration-pill-btn active" id="btn-duration-12m" onclick="setPartnershipDuration(12)" role="radio" aria-checked="true">
+                  <span class="duration-pill-label">12 Meses</span>
+                  <span class="duration-pill-bonus">Oferta de Captação</span>
+                </button>
+              </div>
+            </div>
+            <p class="simulator-terms-note">
+              Campanhas de Anúncios sem fidelização. No Combo Multicanal, o Setup conjunto é bonificado para 990€ (ou 2× 495€ sem juros). Oferta da captação no Addon Orgânico mediante acordo de 12 meses.
+            </p>
+          </div>
+<div class="simulator-body">
+            <div class="simulator-controls">
+              
+              <!-- Item 1: Setup Primary -->
+              <div class="sim-toggle-row onetime-row active" id="toggle-row-setup">
+                <label class="sim-checkbox-label">
+                  <input type="checkbox" id="check-setup" checked disabled />
+                  <span class="custom-check"></span>
+                  <div class="sim-text-group">
+                    <div class="sim-item-name">
+                      <strong id="sim-setup-title">Taxa de Arranque (Setup & Engenharia de Dados)</strong>
+                      <span class="sim-pill mandatory">Obrigatório</span>
+                    </div>
+                    <p class="sim-item-sub" id="sim-setup-desc">Pixel, CAPI Server-side, Catálogo e Públicos estruturados</p>
+                  </div>
+                </label>
+                <div class="sim-price-col">
+                  <span class="sim-price-val">590€</span>
+                  <span class="sim-price-sub">taxa única</span>
+                </div>
+              </div>
+
+              <!-- Item 2: Plano Mensal Primary -->
+              <div class="sim-toggle-row monthly-row active" id="toggle-row-mensal">
+                <label class="sim-checkbox-label">
+                  <input type="checkbox" id="check-mensal" checked onchange="calculateSimulator()" />
+                  <span class="custom-check"></span>
+                  <div class="sim-text-group">
+                    <div class="sim-item-name">
+                      <strong id="sim-mensal-title">Plano Mensal de Meta Ads (1 campanha ativa)</strong>
+                      <span class="sim-pill recommended">Recomendado</span>
+                    </div>
+                    <p class="sim-item-sub" id="sim-mensal-desc">Guiões estratégicos, gestão diária, otimização contínua e relatórios executivos</p>
+                  </div>
+                </label>
+                <div class="sim-price-col">
+                  <span class="sim-price-val" id="primary-price-val">390€</span>
+                  <span class="sim-price-sub">/mês</span>
+                </div>
+              </div>
+
+              <!-- GRUPO: PRODUÇÃO DE CONTEÚDO (ESCOLHA 1 MODALIDADE OPCIONAL) -->
+              <div class="sim-group-divider">
+                <div class="group-divider-badge">
+                  <span>Produção de Conteúdo & Redes (Opcional)</span>
+                  <span class="group-rule-tag">Escolha no máximo 1 opção</span>
+                </div>
+                <p class="group-divider-hint">
+                  Selecione produção pontual para anúncios <strong>OU</strong> acompanhamento mensal contínuo com captação presencial incluída.
+                </p>
+              </div>
+
+              <!-- Item 3: Addon Criativos (One-time) -->
+              <div class="sim-toggle-row onetime-row" id="toggle-row-criativos">
+                <label class="sim-checkbox-label">
+                  <input type="checkbox" id="check-criativos" onchange="handleContentAddonToggle('criativos')" />
+                  <span class="custom-check"></span>
+                  <div class="sim-text-group">
+                    <div class="sim-item-name">
+                      <strong id="criativos-title">Addon Criativos & Estratégia (Plano, Captação & 9 Peças)</strong>
+                      <span class="sim-pill optional" id="criativos-badge-pill">Opcional</span>
+                    </div>
+                    <p class="sim-item-sub" id="criativos-desc">Captação presencial no seu espaço, até 3 Reels finalizados e 9 peças gráficas de alta conversão</p>
+                  </div>
+                </label>
+                <div class="sim-price-col">
+                  <span class="sim-price-val">890€</span>
+                  <span class="sim-price-sub">taxa única</span>
+                </div>
+              </div>
+
+              <!-- Item 4: Addon Orgânico (Recorrente) -->
+              <div class="sim-toggle-row monthly-row" id="toggle-row-organico">
+                <label class="sim-checkbox-label" style="align-items: flex-start;">
+                  <input type="checkbox" id="check-organico" onchange="handleContentAddonToggle('organico')" />
+                  <span class="custom-check" style="margin-top: 4px;"></span>
+                  <div class="sim-text-group">
+                    <div class="sim-item-name">
+                      <strong>Addon Orgânico (9 Publicações Mensais)</strong>
+                      <span class="sim-pill bonus" id="organico-badge-pill">OFERTA CAPTAÇÃO MENSAL</span>
+                    </div>
+                    <p class="sim-item-sub">
+                      Manutenção do feed vitrine arrumado para converter o tráfego dos anúncios (inclui sessões mensais de captação contínuas)
+                    </p>
+                  </div>
+                </label>
+                <div class="sim-price-col">
+                  <span class="sim-price-val" id="organico-price-display">490€</span>
+                  <span class="sim-price-sub">/mês*</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Resumo do Investimento (Card Lateral / Checkout Panel) -->
+            <div class="simulator-summary-col">
+              <div class="sim-summary-card">
+                <div class="summary-card-header">
+                  <h3 class="summary-card-title">Resumo da Proposta Comercial</h3>
+                </div>
+
+                <div class="summary-cost-boxes">
+                  <!-- Caixa 1: Arranque (Taxa Única) -->
+                  <div class="sum-box onetime-box">
+                    <span class="sum-box-label">Arranque (Taxa Única)</span>
+                    <span class="sum-box-value highlight-white" id="total-onetime">590€</span>
+                    <span class="sum-box-vat">+ IVA (Setup Técnico)</span>
+                    <span class="sum-box-breakdown" id="onetime-breakdown-txt">Setup 590€</span>
+                  </div>
+
+                  <!-- Caixa 2: Mensalidade (Gestão) -->
+                  <div class="sum-box monthly-box highlight-box">
+                    <span class="sum-box-label">Gestão Mensal</span>
+                    <span class="sum-box-value highlight-yellow" id="total-monthly">390€</span>
+                    <span class="sum-box-vat">+ IVA / mês</span>
+                    <span class="sum-box-breakdown" id="monthly-breakdown-txt">Meta Ads 390€</span>
+                  </div>
+                </div>
+
+                <!-- ORDER BUMP: UPGRADE MULTICANAL NO CHECKOUT -->
+                <div class="sim-multicanal-bump" id="multicanal-bump-card">
+                  <div class="bump-header">
+                    <span class="bump-tag" id="secondary-discount-pill">🔥 Upgrade Multicanal</span>
+                    <span class="bump-save-pill">Poupe 490€ no Setup</span>
+                  </div>
+                  
+                  <label class="bump-label" for="check-secondary">
+                    <input type="checkbox" id="check-secondary" onchange="calculateSimulator()" />
+                    <span class="custom-check-bump"></span>
+                    <div class="bump-info-text">
+                      <strong id="sim-secondary-title">Adicionar Google Ads (+110€/mês)</strong>
+                      <p id="sim-secondary-desc">
+                        Avença combinada por apenas 500€/mês e Setup conjunto bonificado para 990€ (poupança imediata de 490€ no arranque).
+                      </p>
+                    </div>
+                  </label>
+
+                  <div class="bump-price-display">
+                    <span class="bump-price-val" id="secondary-price-val">+110€</span>
+                    <span class="bump-price-period" id="secondary-price-sub">/mês*</span>
+                    <span class="bump-setup-val" id="secondary-price-setup">• Setup conjunto: 990€</span>
+                  </div>
+                </div>
+
+                <div class="summary-adspend-badge">
+                  <span>📈 Estimativa de Contactos:</span>
+                  <strong id="summary-adspend-leads">~25 a 42 contactos/mês</strong>
+                </div>
+                </div>
+
+                <!-- Lista discriminada separada em 2 grupos claros -->
+                <div class="summary-categorized-items" id="summary-items-list">
+                  <!-- Inserido dinamicamente via JS com grupos separados para Arranque e Mensalidade -->
+                </div>
+
+                <a href="#contacto" class="btn btn-yellow-pill btn-block" onclick="applySimulatorToForm()">
+                  <span>PEDIR ESTA PROPOSTA COMERCIAL</span>
+                  <svg class="btn-arrow" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <div class="sim-commercial-tools">
+                  <button type="button" class="btn-tool-action" id="btn-copy-proposal" onclick="copyProposalSummary()">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span id="copy-btn-text">Copiar Resumo da Proposta</span>
+                  </button>
+                  <button type="button" class="btn-tool-action" onclick="window.print()">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                      <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Imprimir / PDF</span>
+                  </button>
+                </div>
+
+                <p class="summary-disclaimer">
+                  Campanhas de Anúncios sem fidelização. No Combo Multicanal, o Setup conjunto é bonificado para 990€ (ou 2× 495€ sem juros). Oferta da captação no Addon Orgânico mediante acordo de 12 meses.
+                </p>
+              </div>
+            </div>
+
+          </div> <!-- .simulator-body -->
+
+          <!-- MÓDULO EXECUTIVO: ESTIMATIVA DE LEADS & CENÁRIO CONSERVADOR POR SETOR -->
+          <div class="lead-calc-standalone" id="lead-calculator">
+            <div class="lead-calc-top-header">
+              <div class="calc-badge-row">
+                <span class="calc-badge-txt">Projeção Conservadora de Desempenho</span>
+              </div>
+              <h3 class="calc-main-title">
+                Calculadora de <span class="highlight-yellow">Leads & Retorno Estimado</span>
+              </h3>
+              <p class="calc-main-sub">
+                Apresentamos sempre uma estimativa <strong>prudente e conservadora</strong>. A aquisição de uma lead qualificada para comprar um imóvel ou fechar um serviço de alto valor tem um custo e dinâmica completamente diferentes da venda rápida de um produto de retalho.
+              </p>
+            </div>
+
+            <!-- SELETOR DE SETOR DE NEGÓCIO (CASA vs CHOCOLATE) -->
+            <div class="sector-selector-bar">
+              <span class="sector-label">Selecione a tipologia do seu negócio:</span>
+              <div class="sector-pills" role="radiogroup" aria-label="Setor de Negócio">
+                <button type="button" class="sector-pill-btn active" id="btn-sector-services" onclick="setBusinessSector('services')" role="radio" aria-checked="true">
+                  <span>💼 Serviços & Clínicas</span>
+                  <span class="sector-tag">Ticket Médio</span>
+                </button>
+                <button type="button" class="sector-pill-btn" id="btn-sector-realestate" onclick="setBusinessSector('realestate')" role="radio" aria-checked="false">
+                  <span>🏢 Alto Valor / Imobiliário / B2B</span>
+                  <span class="sector-tag">Ticket Alto</span>
+                </button>
+                <button type="button" class="sector-pill-btn" id="btn-sector-retail" onclick="setBusinessSector('retail')" role="radio" aria-checked="false">
+                  <span>🛍️ Retalho & Impulso</span>
+                  <span class="sector-tag">Ticket Baixo</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- SLIDER DE INVESTIMENTO EM ANÚNCIOS -->
+            <div class="sim-slider-container">
+              <div class="sim-slider-header">
+                <div>
+                  <span class="slider-label-title">Orçamento Mensal em Publicidade (Pago às Plataformas):</span>
+                  <span class="slider-label-sub">Investimento de cliques pago diretamente ao Meta / Google</span>
+                </div>
+                <div class="sim-slider-value-box">
+                  <span class="slider-amount" id="adspend-amount-display">500€</span>
+                  <span class="slider-period">/mês</span>
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="sim-range-input"
+                id="adspend-slider"
+                min="300"
+                max="5000"
+                step="50"
+                value="500"
+                oninput="updateLeadEstimates(parseInt(this.value, 10))"
+                aria-label="Orçamento Mensal em Anúncios"
+              />
+
+              <div class="adspend-quick-pills">
+                <button type="button" class="adspend-quick-btn" onclick="setAdSpendPreset(300)">300€</button>
+                <button type="button" class="adspend-quick-btn active" onclick="setAdSpendPreset(500)">500€</button>
+                <button type="button" class="adspend-quick-btn" onclick="setAdSpendPreset(1000)">1.000€</button>
+                <button type="button" class="adspend-quick-btn" onclick="setAdSpendPreset(1500)">1.500€</button>
+                <button type="button" class="adspend-quick-btn" onclick="setAdSpendPreset(3000)">3.000€</button>
+                <button type="button" class="adspend-quick-btn" onclick="setAdSpendPreset(5000)">5.000€</button>
+              </div>
+            </div>
+
+            <!-- RESULTADOS: MÉTRICAS ESTIMADAS CONSERVADORAS -->
+            <div class="calc-metrics-grid">
+              <div class="calc-metric-card highlight-metric">
+                <span class="calc-metric-label">Leads / Contactos Estimados</span>
+                <span class="calc-metric-val highlight-yellow" id="calc-leads-display">25 a 42</span>
+                <span class="calc-metric-sub">estimativa conservadora / mês</span>
+              </div>
+
+              <div class="calc-metric-card">
+                <span class="calc-metric-label">Custo por Lead (CPL) Estimado</span>
+                <span class="calc-metric-val highlight-white" id="calc-cpl-display">12€ a 20€</span>
+                <span class="calc-metric-sub">custo médio prudente por contacto</span>
+              </div>
+
+              <div class="calc-metric-card">
+                <span class="calc-metric-label" id="calc-reach-label">Alcance Estimado no Algarve / PT</span>
+                <span class="calc-metric-val highlight-white" id="calc-reach-display">~42k a 57k pessoas</span>
+                <span class="calc-metric-sub" id="calc-reach-sub">Utilizadores qualificados com perfil ideal de compra</span>
+              </div>
+            </div>
+
+            <!-- INSIGHT QUALITATIVO POR SETOR -->
+            <div class="calc-sector-insight" id="calc-sector-insight-txt">
+              <strong>💡 Análise do Setor de Serviços & Clínicas:</strong> O valor de cada novo cliente ou paciente cobre largamente o custo de aquisição (LTV). Com 500€ de investimento prudente, projetamos entre 25 a 42 pedidos diretos de marcação ou orçamento com intenção real.
+            </div>
+
+            <p class="lead-calc-disclaimer">
+              *Projeções baseadas no histórico real de campanhas geridas pela AORUBRO. Os resultados variam consoante o setor, maturidade da oferta, rapidez da sua equipa comercial no follow-up e histórico da conta de anúncios.
+            </p>
+        </div> <!-- .simulator-wrapper -->
+      </div> <!-- .container -->
+    </section>
+
+    <!-- SECTION: TESTEMUNHOS & PROVA SOCIAL -->
+    <section class="section testimonials-section" id="testemunhos">
+      <div class="container">
+        <div class="section-tag-wrap">
+          <span class="section-tag">Prova Social Real</span>
+        </div>
+        <h2 class="section-title">
+          Quem confia na <span class="highlight-yellow">AORUBRO</span>
+        </h2>
+        <p class="section-desc">
+          Marcas e líderes de referência que escolheram a nossa equipa para impulsionar a sua estratégia e faturação digital.
+        </p>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1: Chef Marlene Vieira -->
+          <div class="testimonial-card featured-testimonial">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              “A AORUBRO tem sido fundamental na comunicação dos nossos restaurantes. Rigor, sentido estético de excelência e resultados visíveis nas reservas e notoriedade.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">MV</div>
+              <div class="author-info">
+                <span class="author-name">Chef Marlene Vieira</span>
+                <span class="author-role">Restaurante Marlene, Lisboa</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: McDonald's Albufeira -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              “Excelente relação, profissionalismo e execução eficiente nos prazos acordados, criando uma parceria duradoura e de total confiança para a nossa operação.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">NF</div>
+              <div class="author-info">
+                <span class="author-name">Nuno Freitas</span>
+                <span class="author-role">McDonald's Albufeira</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: Premium Key -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              “O resultado final foi muito positivo. Temos recebido um feedback contínuo excelente de clientes, o que realça o profissionalismo e a precisão estratégica da equipa.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">SP</div>
+              <div class="author-info">
+                <span class="author-name">Sérgio Policarpo</span>
+                <span class="author-role">Premium Key</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4: Algarve Paint Store -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              “O Tiago e toda a equipa fizeram um trabalho excelente. Entregaram à APS soluções de alta qualidade em tempo record com todas as exigências pedidas cumpridas à risca.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">JZ</div>
+              <div class="author-info">
+                <span class="author-name">João Zambujo</span>
+                <span class="author-role">Algarve Paint Store</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 5: Intermarché Alvor -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              “A nossa parceria com a AORUBRO não podia ser mais satisfatória. São sempre recetivos aos nossos pedidos, ajudam-nos a encontrar as melhores soluções e são extremamente pontuais.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">AN</div>
+              <div class="author-info">
+                <span class="author-name">Ariana Nobre</span>
+                <span class="author-role">Intermarché Alvor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PERGUNTAS FREQUENTES (FAQ) -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-tag-wrap">
+          <span class="section-tag">Esclarecimentos</span>
+        </div>
+        <h2 class="section-title">
+          Perguntas <span class="highlight-yellow">frequentes</span>
+        </h2>
+        <p class="section-desc">
+          Tudo o que precisa de saber sobre o funcionamento, valores e a nossa parceria de crescimento.
+        </p>
+
+        <div class="faq-accordion">
+                    <!-- Q-Google -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Posso combinar Meta Ads e Google Ads? Como funciona o Combo Multicanal a 500€/mês?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sim! Para além do Meta Ads, a nossa equipa é especialista na gestão de campanhas de <strong>Google Ads</strong> (Rede de Pesquisa de alta intenção, Google Shopping e campanhas Performance Max). As condições comerciais isoladas são de 590€ de setup e 390€/mês para Meta Ads e 890€ de setup e 290€/mês para Google Ads. No entanto, <strong>se subscrever os dois meios em conjunto (Meta e Google), beneficia da tarifa especial de Combo Multicanal por 500€/mês</strong> (poupança mensal de 180€ face a 680€) e o <strong>Setup técnico de ambos os canais fica bonificado para 990€ no conjunto</strong> (em vez de 1.480€, poupando 490€ no arranque), com possibilidade de fracionamento do setup em 2x 495€ sem juros.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q0: 1 Campanha e Aditivos -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Quantas campanhas estão incluídas no plano mensal? Posso gerir mais campanhas?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                O plano mensal base inclui a gestão e otimização diária de <strong>1 campanha de alta performance</strong> (tanto em Google Ads como em Meta Ads), ideal para concentrar o orçamento no seu produto ou serviço mais rentável.<br/><br/>
+                Caso a sua empresa necessite de promover múltiplas linhas de negócio, produtos diferentes ou mercados distintos em simultâneo com campanhas autónomas, dispomos de <strong>preços e aditivos sob medida para campanhas adicionais</strong>. Fale connosco para estruturarmos o pacote exato para as suas metas de escala.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q1 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>O valor do investimento em anúncios está incluído na mensalidade da agência?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Não.</strong> A mensalidade da agência (390€/mês no Meta, 290€/mês no Google ou 500€/mês no Combo) remunera o nosso trabalho especializado de engenharia de campanhas, auditoria diária do algoritmo, elaboração de guiões e relatórios de ROAS. O orçamento de publicidade (ex: 15€/dia, 500€/mês) é pago diretamente por si às plataformas (Meta ou Google) através do cartão associado à sua conta de anúncios. Mantém sempre 100% do controlo e transparência sobre o valor investido.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Por que razão as taxas de Arranque e Engenharia de Dados (590€ no Meta / 890€ no Google) são necessárias?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Lançar campanhas sem Pixel verificado e sem rastreio server-side (CAPI no Meta ou Enhanced Conversions no Google) é garantia de desperdiçar orçamento. As taxas únicas cobrem toda a engenharia técnica indispensável (GTM avançado, GA4, Consent Mode v2 e Enhanced Conversions no Google a 890€; Pixel, CAPI Server-side e Catálogo no Meta a 590€).<br/>
+                <em>Vantagem Especial de Combo:</em> Para além da avença reduzida para apenas 500€/mês, o Setup conjunto de ambos os canais é reduzido para <strong>990€</strong> (em vez de 1.480€, poupando 490€), podendo ser fracionado em 2x 495€ sem juros.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como funciona a gravação de vídeos e fotos no Plano Mensal de Meta Ads (390€)?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Os anúncios que mais vendem hoje no Meta têm um formato autêntico e humano (bastidores, demonstração real de produtos e serviços). Para simplificar a sua rotina, a nossa equipa desenha guiões persuasivos com ganchos comprovados, indicando exatamente o que filmar com o smartphone em poucos minutos. A sua equipa envia-nos o material bruto e nós tratamos de toda a edição profissional e legendagem. Se preferir produção audiovisual no local com câmaras profissionais, pode adicionar o nosso <strong>Addon Criativos (890€)</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como funciona a oferta da captação no Addon Orgânico?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                A <strong>oferta da sessão mensal presencial de captação de conteúdos</strong> no seu espaço é atribuída mediante um acordo de 12 meses. Caso a sua empresa prefira não assumir o acordo de 12 meses, o Addon Orgânico com captação fica por mais 200€ (+200€/mês, total de 690€/mês), ou mantém o valor de 490€/mês enviando o material em bruto gravado pela sua própria equipa.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Existe algum período de fidelização obrigatório?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Para a Gestão de Campanhas de Anúncios (390€/mês Meta, 290€/mês Google ou 500€/mês Combo), <strong>não exigimos qualquer fidelização obrigatória</strong> (pode ajustar ou cancelar a qualquer mês). Apenas na <strong>oferta gratuita da sessão presencial de captação</strong> de conteúdos no Addon Orgânico é que é requerido o acordo de 12 meses (caso contrário, a captação fica por mais 200€/mês).
+              </p>
+            </div>
+          </div>
+
+          <!-- Q7: Nichos & Qual o canal ideal -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Qual é o melhor canal para a minha empresa: Meta Ads ou Google Ads?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Depende do comportamento natural do seu cliente ideal:<br/><br/>
+                • <strong>Google Ads (Pesquisa & Shopping):</strong> É a escolha primordial para negócios onde existe <strong>intenção ativa de compra ou necessidade imediata</strong> (ex: clínicas médicas, dentistas, advogados, contabilidade, oficinas mecânicas, reparações urgentes, hotelaria e imobiliário para compradores específicos). O cliente já está à procura de uma solução agora mesmo.<br/><br/>
+                • <strong>Meta Ads (Instagram & Facebook):</strong> É a escolha perfeita para negócios de <strong>desejo visual, impulso ou notoriedade contínua</strong> (ex: restauração, bares, moda, estética, e-commerce, experiências de lazer e turismo no Algarve). Mostra a sua marca e desperta a vontade de comprar em quem ainda não o conhecia.<br/><br/>
+                • <strong>Combo Multicanal (500€/mês):</strong> É a solução mais completa e recomendada. O Meta Ads desperta o desejo e cria notoriedade, enquanto o Google Ads captura as pesquisas diretas quando o cliente decide fechar o negócio.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q6: Acompanhamento & Parceria -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como é feito o acompanhamento e a comunicação no dia a dia?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Trabalhamos como uma extensão da sua própria equipa. Não desaparecemos após lançar as campanhas. Mantemos contacto regular para esclarecer dúvidas, partilhar alertas de desempenho e realizamos reuniões estratégicas de acompanhamento em linguagem simples e prática. O nosso foco é garantir que sabe exatamente o retorno do seu investimento e para onde estamos a caminhar juntos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FORMULÁRIO DE CONTACTO ("Vamos REUNIR?") -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Contact Left Info -->
+          <div class="contact-info-col">
+            <div class="section-tag-wrap">
+              <span class="section-tag">Fale Connosco</span>
+            </div>
+            <h2 class="contact-main-title">
+              Vamos <span class="highlight-yellow">reunir?</span>
+            </h2>
+            <p class="contact-lead-desc">
+              Diga-nos onde quer levar o seu negócio. Agende uma conversa informal com a nossa equipa aqui no Algarve: analisamos a sua presença digital atual e desenhamos um plano sob medida para aumentar as suas vendas.
+            </p>
+
+            <div class="contact-direct-cards">
+              <div class="direct-card">
+                <div class="direct-icon">📍</div>
+                <div class="direct-text">
+                  <span class="direct-label">Escritórios</span>
+                  <address class="direct-val">
+                    Estrada dos Salgados, Urbanização Monte Galé, nº 39, loja 1,<br/>
+                    8200-428 Albufeira, Algarve – Portugal
+                  </address>
+                </div>
+              </div>
+
+              <div class="direct-card">
+                <div class="direct-icon">📞</div>
+                <div class="direct-text">
+                  <span class="direct-label">Contacto Telefónico</span>
+                  <a href="tel:+351911100707" class="direct-val link">+351 91 110 07 07</a>
+                  <span class="direct-sub">(chamada para rede móvel nacional)</span>
+                </div>
+              </div>
+
+              <div class="direct-card">
+                <div class="direct-icon">✉️</div>
+                <div class="direct-text">
+                  <span class="direct-label">E-mail Corporativo</span>
+                  <a href="mailto:comercial@aorubro.pt" class="direct-val link">comercial@aorubro.pt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right Form -->
+          <div class="contact-form-col">
+            <div class="form-wrapper-card">
+              <div class="form-card-badge">Qualificação Estratégica</div>
+              <h3 class="form-title">Agendar Reunião de Alinhamento</h3>
+              <p class="form-desc">Preencha os dados abaixo. Analisamos o seu negócio previamente e apresentamos-lhe um plano de ação prático e sem compromisso.</p>
+
+              <form id="lead-form" class="custom-lead-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="lead-firstname">Primeiro Nome <span class="req">*</span></label>
+                    <input type="text" id="lead-firstname" name="firstname" placeholder="Ex: Tiago" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="lead-lastname">Apelido <span class="req">*</span></label>
+                    <input type="text" id="lead-lastname" name="lastname" placeholder="Ex: Pacheco" required />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="lead-phone">Contacto Telefónico <span class="req">*</span></label>
+                    <input type="tel" id="lead-phone" name="phone" placeholder="+351 912 345 678" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="lead-email">E-mail <span class="req">*</span></label>
+                    <input type="email" id="lead-email" name="email" placeholder="tiago@empresa.pt" required />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="lead-package">Serviços / Opções com Maior Interesse <span class="req">*</span></label>
+                                    <select id="lead-package" name="package">
+                    <option value="combo-meta-google" selected>Combo Multicanal: Meta Ads + Google Ads (500€/mês)</option>
+                    <option value="completo">Apenas Meta Ads (Setup 590€ + 390€/mês)</option>
+                    <option value="google-only">Apenas Google Ads (Setup 890€ + 290€/mês)</option>
+                    <option value="completo-criativos">Tráfego Pago + Addon Criativos (890€)</option>
+                    <option value="combo-criativos">Meta + Google + Addon Criativos</option>
+                    <option value="all-in">Pacote Completo Total (Meta + Google + Criativos + Orgânico)</option>
+                    <option value="personalizado">Pretendo aconselhamento para definir a melhor solução</option>
+                  </select>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="lead-budget">Orçamento Mensal Previsto para Anúncios no Meta</label>
+                    <select id="lead-budget" name="budget">
+                      <option value="300-500">300€ a 500€ / mês</option>
+                      <option value="500-1500" selected>500€ a 1.500€ / mês</option>
+                      <option value="1500-3000">1.500€ a 3.000€ / mês</option>
+                      <option value="3000+">Mais de 3.000€ / mês</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="lead-instagram">Página de Instagram da Empresa</label>
+                    <input type="text" id="lead-instagram" name="instagram" placeholder="@empresa ou https://instagram.com/empresa" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="lead-website">Website ou Ficha Google / Maps (se aplicável)</label>
+                  <input type="text" id="lead-website" name="website" placeholder="https://empresa.pt ou link do Google Maps" />
+                </div>
+
+                <div class="form-group">
+                  <label for="lead-message">Principal Desafio Atual do seu Negócio <span class="req">*</span></label>
+                  <textarea id="lead-message" name="message" rows="3" placeholder="Indique brevemente o seu setor e os maiores desafios de vendas atualmente..." required></textarea>
+                </div>
+
+                <div class="form-checkbox-group">
+                  <label class="privacy-consent-label">
+                    <input type="checkbox" id="privacy-consent" required />
+                    <span>Tomei conhecimento e aceito a <a href="https://aorubro.pt/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Política de Privacidade & Cookies</a> da AORUBRO.</span>
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn-yellow-pill btn-block" id="btn-submit-form">
+                  <span>AGENDAR REUNIÃO ESTRATÉGICA</span>
+                  <svg class="btn-arrow" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+
+                <div class="form-status-message" id="form-status" style="display: none;"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL & LEGAL (CONFORMIDADE www.aorubro.pt) -->
+  <footer class="site-footer-institutional" id="rodape">
+    <div class="container footer-institutional-container">
+      
+      <!-- Grelha Principal: Marca, Escritórios, Contactos e Legal -->
+      <div class="footer-main-grid">
+        
+        <!-- Coluna 1: Marca & Identidade -->
+        <div class="footer-col footer-col-brand">
+          <div class="footer-brand-header">
+            <a href="#hero" class="footer-logo-link" aria-label="AORUBRO Início">
+              <div class="footer-logo-pill">
+                <img src="assets/logo-aorubro-oficial.png" alt="AORUBRO" class="footer-logo-img" />
+              </div>
+            </a>
+            <span class="footer-brand-tagline">BRANDS ALL OVER</span>
+          </div>
+          <p class="footer-brand-desc">
+            Agência de estratégia digital, branding e tráfego pago de alta performance (Meta Ads &amp; Google Ads). Maximização do retorno sobre investimento publicitário para negócios orientados ao crescimento.
+          </p>
+          <div class="footer-corporate-entity">
+            <span class="corporate-badge">Entidade Legal</span>
+            <strong>AuRubro, Marketing e Publicidade Unipessoal Lda</strong>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Escritórios & Sede -->
+        <div class="footer-col footer-col-location">
+          <h4 class="footer-col-title">
+            <span class="footer-title-dot"></span>
+            Escritórios
+          </h4>
+          <address class="footer-address">
+            <div class="footer-address-item">
+              <svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Estrada dos Salgados, Urbanização Monte Galé, nº 39, loja 1<br />8200-428 Albufeira, Algarve – Portugal</span>
+            </div>
+          </address>
+          <div class="footer-location-note">
+            <span class="badge-algarve">Sede &amp; Operações no Algarve</span>
+          </div>
+        </div>
+
+        <!-- Coluna 3: Contactos Oficiais & Redes -->
+        <div class="footer-col footer-col-contacts">
+          <h4 class="footer-col-title">
+            <span class="footer-title-dot"></span>
+            Contactos
+          </h4>
+          <ul class="footer-contact-list">
+            <li>
+              <a href="tel:+351939958678" class="footer-contact-link">
+                <svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span class="footer-contact-text">
+                  <strong>+351 939 958 678</strong>
+                  <small class="footer-legal-tariff">(chamada para rede móvel nacional)</small>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:geral@aorubro.pt" class="footer-contact-link">
+                <svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="footer-contact-text">
+                  <strong>geral@aorubro.pt</strong>
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="footer-social-wrap">
+            <span class="footer-social-label">Redes Oficiais:</span>
+            <div class="footer-social-links">
+              <a href="https://www.instagram.com/aorubro" target="_blank" rel="noopener noreferrer" class="footer-social-badge" title="Instagram AORUBRO">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.facebook.com/aorubro.pt" target="_blank" rel="noopener noreferrer" class="footer-social-badge" title="Facebook AORUBRO">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.linkedin.com/company/27106772/" target="_blank" rel="noopener noreferrer" class="footer-social-badge" title="LinkedIn AORUBRO">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna 4: Conformidade Legal & Consumo -->
+        <div class="footer-col footer-col-compliance">
+          <h4 class="footer-col-title">
+            <span class="footer-title-dot"></span>
+            Conformidade Legal
+          </h4>
+          
+          <!-- Livro de Reclamações Online Badge -->
+          <div class="footer-compliance-card">
+            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer" class="footer-reclama-badge" title="Aceder ao Livro de Reclamações Online (livroreclamacoes.pt)">
+              <div class="reclama-badge-icon">
+                <svg viewBox="0 0 28 28" width="28" height="28" fill="none">
+                  <rect x="2" y="2" width="24" height="24" rx="4" fill="#c62828" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                  <path d="M7 6h14v16H7z" fill="#ffffff" />
+                  <path d="M9 10h10M9 13h10M9 16h6" stroke="#c62828" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M15 6v6l2.5-2 2.5 2V6z" fill="#ffd400" />
+                </svg>
+              </div>
+              <div class="reclama-badge-info">
+                <span class="reclama-badge-label">Livro de Reclamações</span>
+                <span class="reclama-badge-action">Disponível Online &rarr;</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Links Legais Rápidos -->
+          <ul class="footer-legal-links-list">
+            <li>
+              <a href="https://aorubro.pt/politica-de-privacidade/" target="_blank" rel="noopener noreferrer" class="footer-legal-link">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                <span>Política de Privacidade &amp; Cookies</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer" class="footer-legal-link">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span>Livro de Reclamações Online</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Resolução Alternativa de Litígios (RAL) -->
+          <div class="footer-ral-info">
+            <span class="footer-ral-text">
+              Em caso de litígio, o consumidor pode recorrer à Entidade de Resolução Alternativa de Litígios de Consumo: <strong>CIMAAL</strong> (Centro de Informação, Mediação e Arbitragem de Conflitos de Consumo do Algarve).
+            </span>
+          </div>
+
+        </div>
+
+      </div> <!-- .footer-main-grid -->
+
+      <!-- Secção de Co-Financiamento PRR / UE -->
+      <div class="footer-institutional-banner-section">
+        <div class="institutional-banner-wrap">
+          <img src="assets/financiamento-prr-ue.png" alt="Plano de Recuperação e Resiliência (PRR), República Portuguesa e Financiado pela União Europeia NextGenerationEU" class="institutional-banner-img" loading="lazy" />
+        </div>
+        <p class="institutional-funding-caption">
+          Operação cofinanciada pelo <strong>Plano de Recuperação e Resiliência (PRR)</strong>, República Portuguesa e União Europeia através do fundo <strong>NextGenerationEU</strong>.
+        </p>
+      </div>
+
+      <!-- Barra de Direitos Reservados e Copyright -->
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <p class="institutional-copyright">
+            Todos os direitos estão reservados 2026 © <strong>AORUBRO</strong> • AuRubro, Marketing e Publicidade Unipessoal Lda.
+          </p>
+        </div>
+        <div class="footer-bottom-right">
+          <a href="https://aorubro.pt/politica-de-privacidade/" target="_blank" rel="noopener noreferrer" class="footer-bottom-link">Política de Privacidade &amp; Cookies</a>
+          <span class="footer-bottom-sep">•</span>
+          <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer" class="footer-bottom-link">Livro de Reclamações Online</a>
+          <span class="footer-bottom-sep">•</span>
+          <span class="footer-bottom-location">Albufeira, Algarve – Portugal</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MAIN JAVASCRIPT LOGIC -->
+  <script src="script.js?v=2.0"></script>
+  <!-- WHATSAPP FLOATING BUTTON (Apoio Comercial Imediato) -->
+  <aside class="whatsapp-fab" id="whatsapp-fab" aria-label="Contacto WhatsApp Comercial">
+    <a href="https://wa.me/351911100707?text=Ol%C3%A1%20AORUBRO!%20Estive%20a%20consultar%20a%20vossa%20proposta%20de%20tr%C3%A1fego%20pago%20e%20gostaria%20de%20falar%20com%20um%20especialista." target="_blank" rel="noopener noreferrer" class="whatsapp-fab-link">
+      <span class="whatsapp-icon-wrap">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19.53-1.12 1.04-1.54 1.09-.4.05-.93.07-2.68-.65-2.12-.88-3.48-3.04-3.59-3.18-.11-.15-.86-1.14-.86-2.18s.54-1.55.73-1.76c.19-.21.42-.26.56-.26.14 0 .28 0 .4.01.13.01.3-.05.47.36.19.45.64 1.57.7 1.69.06.12.1.26.02.41-.08.15-.12.25-.24.38-.12.13-.25.3-.36.4-.12.11-.25.23-.11.47.14.24.62 1.03 1.34 1.67.92.82 1.7 1.08 1.94 1.2.24.12.38.1.52-.06.14-.16.6-.7.76-.94.16-.24.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.06.1.06.59-.13 1.12z"/>
+        </svg>
+      </span>
+      <span class="whatsapp-fab-text">
+        <span class="whatsapp-label-top">Dúvidas?</span>
+        <strong class="whatsapp-label-bot">Falar no WhatsApp</strong>
+      </span>
+    </a>
+  </aside>
+
+  <!-- MOBILE STICKY PROPOSAL BAR -->
+  <div class="mobile-sticky-bar" id="mobile-sticky-bar">
+    <div class="mobile-sticky-inner">
+      <div class="mobile-sticky-info">
+        <span class="mobile-sticky-tag">Simulação Ativa</span>
+        <span class="mobile-sticky-price" id="mobile-bar-price">390€/mês</span>
+      </div>
+      <a href="#contacto" class="btn btn-yellow-pill btn-sm" onclick="applySimulatorToForm()">
+        <span>Pedir Proposta</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
